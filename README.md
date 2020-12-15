@@ -28,4 +28,7 @@
 <ul>
 <li><a href="https://github.com/Mistive/AndroidStudio-17.VideoRecord/blob/master/17.VideoRecord.md">17. VideoRecord</a></li>
 </ul>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
 
