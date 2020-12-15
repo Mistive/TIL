@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="today-i-learned">Today I Learned</h1>
 <ul>
 <li>To Better than Yesterday</li>
