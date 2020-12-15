@@ -1,9 +1,15 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIL</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
-
-<h1 id="today-i-learned">Today I Learned</h1>
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="today-i-learned">Today I Learned</h1>
 <ul>
 <li>To Better than Yesterday</li>
 <li>어제보다 조금 더 발전한 내가 되기 위해</li>
@@ -31,4 +37,7 @@
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
+</div>
+</body>
 
+</html>
