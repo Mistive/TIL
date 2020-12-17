@@ -1,4 +1,4 @@
-# Android Studio - 17. VideoRecord
+# Android Studio - 18. VideoRecord
 카메라를 활용하여 녹화하는 기능을 구현한다.
 
 ## 처음 보는 것들
@@ -28,9 +28,7 @@ ex) 카메라 오픈, surfaceView & surfaceHolder 설정
 ### 3. 버튼 클릭 시 녹화 시작
 녹화가 진행 중이라면 끝내고, 그게 아니라면 시작
 **mediaRecorder** 객체를 사용하는데 **runOnUiThread(new Runnable() { }** 에서 모두 구현하였다.
-<details>
-<summary>자세히</summary>
-
+```java
     mediaRecorder = new MediaRecorder();  
     camera.unlock();  
     mediaRecorder.setCamera(camera);  
@@ -49,10 +47,8 @@ ex) 카메라 오픈, surfaceView & surfaceHolder 설정
     mediaRecorder.prepare();  
     mediaRecorder.start();  
     recording=true;
+```
 
-</details>
-
- 
 
 ## 공부
 ### runOnUiThread
