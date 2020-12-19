@@ -20,9 +20,11 @@
 
 
 #### build.gradle(Project)
+##### 추가
 ```java
 classpath 'com.google.gms:google-services:4.3.4' 
 ```
+##### 전체
 ```java
 buildscript {
     repositories {
@@ -40,11 +42,13 @@ buildscript {
 ```
 ---
 #### build.gradle(Module)
+##### 추가
 ```java
     implementation platform('com.google.firebase:firebase-bom:26.1.1')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-messaging:20.3.0'
 ```
+##### 전체
 ```java
 dependencies {  
   implementation fileTree(dir: "libs", include: ["*.jar"])  
@@ -61,13 +65,13 @@ dependencies {
 
 
 ### 3. google-services.json 추가  
-#### 파일 위치
+##### 파일 위치
 ![image](https://user-images.githubusercontent.com/39082893/102533362-acc34200-40e8-11eb-9596-fd57aa323e99.png)
 
 * 해당 json 파일은 Firebase에서 프로젝트를 생성하면 다운로드 받을 수 있다.
 
 ### 4. FirebaseInstanceIDService.java 파일 추가
-#### FirebaseInstanceIDService.java
+##### FirebaseInstanceIDService.java
 ```java
 package com.mistive.pushtest;
 
@@ -94,7 +98,7 @@ public class FirebaseInstanceIDService extends FirebaseInstanceIdService {
 ---
 
 ### 5. FirebaseMessagingService.java 추가
-#### FirebaseMessagingService.java
+##### FirebaseMessagingService.java
 ```java
 package com.mistive.pushtest;
 
@@ -148,11 +152,13 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
     }
 }
 ```
----
+------------------------------------------------------------------------
+
+
 
 
 
 ## 이슈
 
-### 앱이 Background에서 실행될 때 알림이 온다.
+*  앱이 Background에서 실행될 때 알림이 온다.
 
