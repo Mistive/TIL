@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 ## 결과
-![image](https://user-images.githubusercontent.com/39082893/102683931-bd260a80-4217-11eb-9a23-789947fa287f.png)
+![giff](https://user-images.githubusercontent.com/39082893/102684100-0e82c980-4219-11eb-9458-5d6b596e212d.gif)
 
 
 ## 공부
