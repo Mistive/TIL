@@ -55,9 +55,9 @@ menu directory를 만들고 menu 타입의 리소스를 생성한 후 위와같�
 
 아까 만든 menu를 BottomNavigationView와 연결해준다.
 
- `app:itemIconTint="@color/bottom_navigation_colors"`
- `app:itemTextColor="@color/bottom_navigation_colors"`
- 아이콘 색깔과 text색깔을 결정해준다.
+ `app:itemIconTint="@color/bottom_navigation_colors"`  
+ `app:itemTextColor="@color/bottom_navigation_colors"`  
+ 아이콘 색깔과 text색깔을 결정해준다.  
  현재 선택된 버튼과 선택되지 않은 버튼 색깔을 selector를 이용하여 다르게 설정해놓았다.
 ![image](https://user-images.githubusercontent.com/39082893/102714870-fb552400-4314-11eb-9fe0-10ed8b957a77.png)
 ```xml
