@@ -113,7 +113,7 @@ menu directory를 만들고 menu 타입의 리소스를 생성한 후 위와같�
 </LinearLayout>
 ```
 
-<img  src="https://user-images.githubusercontent.com/39082893/102714947-76b6d580-4315-11eb-9c14-d07756566a8c.png"  width="50%"  height="50%">
+<img  src="https://user-images.githubusercontent.com/39082893/102714947-76b6d580-4315-11eb-9c14-d07756566a8c.png"  width="200"  height="100%">
 
 #### 04_2. fragment1.java 생성
 ```java
