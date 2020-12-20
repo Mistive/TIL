@@ -49,10 +49,8 @@ menu directory를 만들고 menu 타입의 리소스를 생성한 후 위와같�
         app:menu="@menu/bottom_navigation_menu"
         tools:layout_editor_absoluteX="2dp" />
 ```
-여기서 봐야할 부분은
-
+여기서 봐야할 부분은  
 `app:menu="@menu/bottom_navigation_menu"`
-
 아까 만든 menu를 BottomNavigationView와 연결해준다.
 
  `app:itemIconTint="@color/bottom_navigation_colors"`  
