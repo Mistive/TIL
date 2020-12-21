@@ -18,7 +18,7 @@ Activity의 창을 전환하는 방법은 2가지가 있다.
 
 ## 2. layout 작성
 
-**_activity_main.xml_**
+**_res.layout.activity_main.xml_**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -45,7 +45,7 @@ Activity의 창을 전환하는 방법은 2가지가 있다.
 </LinearLayout>
 ```
 ---
-**_activity_sub.xml_**
+**_res.layout.activity_sub.xml_**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
