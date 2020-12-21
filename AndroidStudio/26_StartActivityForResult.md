@@ -10,7 +10,7 @@ Activity의 창을 전환하는 방법은 2가지가 있다.
 
 # 결과
 ![GIF 2020-12-22 오전 1-09-02](https://user-images.githubusercontent.com/39082893/102796953-5a3c9b00-43f2-11eb-9e35-6664c8e870e8.gif)
-
+> https://github.com/Mistive/26_StartActivityForResult.git
 # 순서
 
 ## 1. SubActivity 생성
