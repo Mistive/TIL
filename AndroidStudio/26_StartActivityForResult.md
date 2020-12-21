@@ -138,21 +138,21 @@ intent와 int 타입의 REQUEST_CODE가 들어간다. 이는 오버라이드 메
 
 ---
 ```java
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+@Override
+protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    super.onActivityResult(requestCode, resultCode, data);
 
-        if(resultCode == RESULT_OK){
-            Toast.makeText(getApplicationContext(), "수신 성공", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(getApplicationContext(), "수신 실패", Toast.LENGTH_SHORT).show();
-        }
-
-        if(requestCode == REQUEST_CODE){
-            String resultTxt = data.getStringExtra("comeback");
-            tv_comeback.setText(resultTxt);
-        }
+    if(resultCode == RESULT_OK){
+        Toast.makeText(getApplicationContext(), "수신 성공", Toast.LENGTH_SHORT).show();
+    }else{
+        Toast.makeText(getApplicationContext(), "수신 실패", Toast.LENGTH_SHORT).show();
     }
+
+    if(requestCode == REQUEST_CODE){
+        String resultTxt = data.getStringExtra("comeback");
+        tv_comeback.setText(resultTxt);
+    }
+}
 ```
 `onActivityResult()` 메소드이다. MainActivity에서 요청한 intent의 `requestCode`, SubActivity에서의 응답인 `resultCode`, 그리고 `data`. 이렇게 3가지 파라미터를 지닌다.
 
@@ -207,14 +207,14 @@ public class SubActivity extends AppCompatActivity {
 ### 주요 코드
 ```java
 @Override
-     public void onClick(View view) {
-         Intent intent = new Intent();
-         
-         String str = et_comeback.getText().toString();
-         intent.putExtra("comeback", str);
-         setResult(RESULT_OK, intent);
-         finish(); //현재 Activity 종료
-     }
+public void onClick(View view) {
+    Intent intent = new Intent();
+    
+    String str = et_comeback.getText().toString();
+    intent.putExtra("comeback", str);
+    setResult(RESULT_OK, intent);
+    finish(); //현재 Activity 종료
+}
 ```
 intent에 데이터를 실을 때는 `putExtra("_NAME", String)`을 활용한다.
 
