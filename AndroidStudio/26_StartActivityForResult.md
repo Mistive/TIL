@@ -14,7 +14,7 @@ Activity의 창을 전환하는 방법은 2가지가 있다.
 # 순서
 
 ## 1. SubActivity 생성
-<img src = "https://user-images.githubusercontent.com/39082893/102797177-aab3f880-43f2-11eb-96a2-b98dccdf892b.png"/>
+<img src = "https://user-images.githubusercontent.com/39082893/102797177-aab3f880-43f2-11eb-96a2-b98dccdf892b.png"  width="400"  height="100%"/>
 
 ## 2. layout 작성
 
