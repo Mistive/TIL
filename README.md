@@ -13,7 +13,9 @@
 
 # 분류
 ### Today
+
 * [2020.12.19](https://github.com/Mistive/TIL/blob/master/Today/2020.12.19.md)
+*  [2020.12.24](https://github.com/Mistive/TIL/blob/master/Today/2020.12.24.md)
 ###  Android Studio
 * [18_VideoRecord](https://github.com/Mistive/TIL/blob/master/AndroidStudio/18_VideoRecord.md)
 * [19_FCM_PushAlarm](https://github.com/Mistive/TIL/blob/master/AndroidStudio/19_FCM_PushAlarm.md)
