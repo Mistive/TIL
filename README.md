@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Today I Learned](#today-i-learned)
+- [작성 규칙](#%EC%9E%91%EC%84%B1-%EA%B7%9C%EC%B9%99)
+- [다짐](#%EB%8B%A4%EC%A7%90)
+- [분류](#%EB%B6%84%EB%A5%98)
+    - [Today](#today)
+    - [Android Studio](#android-studio)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Today I Learned
 * To Better than Yesterday
 * 어제보다 조금 더 발전한 내가 되기 위해
